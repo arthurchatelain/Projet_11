@@ -1,0 +1,104 @@
+@import url("../polices.css");
+
+.Erreur404 {
+    font-size: 250px;
+    margin: 0px;
+    font-family: Montserrat-Bold;
+}
+
+.DivErreur {
+    color: #ff6060;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.ErreurDescription {
+    font-size: 26px;
+    margin: 0px;
+    font-family: Montserrat-Medium;
+    text-align: center;
+}
+
+.RetourAccueil {
+    color: #ff6060;
+    font-size: 18px;
+    padding-top: 110px;
+    font-family: Montserrat-Medium;
+    text-align: center;
+}
+
+/* Responsive */
+
+@media all and (max-width: 1120px) {
+    .Error .Erreur404 {
+        font-size: 200px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .Error .Erreur404 {
+        font-size: 150px;
+        margin-top: 30px;
+    }
+    .Error .ErreurDescription {
+        font-size: 23px;
+        margin-top: 40px;
+    }
+    .Error .RetourAccueil {
+        font-size: 17px;
+        padding-top: 90px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .Error .Erreur404 {
+        font-size: 125px;
+    }
+    .Error .ErreurDescription {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    .Error .RetourAccueil {
+        font-size: 15px;
+        padding-top: 85px;
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 710px) {
+    .Error .Erreur404 {
+        font-size: 115px;
+        margin-top: 50px;
+    }
+    .Error .ErreurDescription {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .Error .Erreur404 {
+        font-size: 90px;
+        margin-top: 75px;
+    }
+    .Error .ErreurDescription {
+        font-size: 17px;
+        width: 80%;
+        margin-top: 15px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .Error .Erreur404 {
+        font-size: 82px;
+        margin-top: 90px;
+    }
+    .Error .ErreurDescription {
+        font-size: 16px;
+    }
+    .Error .RetourAccueil {
+        font-size: 13px;
+        padding-top: 40px;
+    }
+}

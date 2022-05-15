@@ -1,0 +1,49 @@
+@import url("../polices.css");
+
+.DropLarge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Dropmedium {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.DropTitleCont {
+    background-color: #ff6060;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.DropDescriptionCont {
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 28px 20px;
+    box-sizing: border-box;
+}
+
+.DropTitle {
+    margin: 0px;
+    color: white;
+    font-family: Montserrat-Medium;
+}
+
+.DropDescription {
+    margin: 0px;
+    color: #ff6060;
+    font-family: Montserrat-Regular;
+    padding: 2px;
+}

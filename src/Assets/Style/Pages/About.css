@@ -1,0 +1,93 @@
+@import url("../polices.css");
+
+.DropdownAboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 15%;
+}
+
+.AboutImageContainer {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0px 80px;
+    box-sizing: border-box;
+}
+
+.AboutImage {
+    width: 100%;
+    border-radius: 20px;
+    filter: brightness(0.7);
+}
+
+@media all and (max-width: 1100px) {
+    .About .AboutImage {
+        border-radius: 10px;
+    }
+    .About {
+        display: flex;
+        flex-direction: column;
+    }
+    .About .AboutImageContainer {
+        padding: 0px 30px;
+        align-self: center;
+        justify-self: center;
+        width: calc(100% - 60px);
+        border-radius: 15px;
+    }
+    .About .AboutImage {
+        width: auto;
+        height: 260px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .About .AboutImage {
+        width: auto;
+        height: 220px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .DropdownAboutContainer {
+        padding: 28px 60px;
+    }
+    .About .DropTitleCont {
+        font-size: 15px;
+    }
+    .About .DropDescription {
+        padding: 0px;
+        font-size: 14px;
+    }
+    .About .AboutImage {
+        width: auto;
+        height: 200px;
+    }
+    .About .AboutImageContainer {
+        border-radius: 10px;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .About .AboutImageContainer {
+        padding: 0px 18px;
+    }
+    .DropdownAboutContainer {
+        padding: 28px 30px;
+    }
+    .About .DropTitleCont {
+        font-size: 14px;
+    }
+    .About .DropDescription {
+        padding: 0px;
+        font-size: 13px;
+    }
+    .About .AboutImage {
+        width: auto;
+        height: 150px;
+    }
+}

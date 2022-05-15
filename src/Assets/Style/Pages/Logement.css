@@ -1,0 +1,160 @@
+@import url("../polices.css");
+
+.Logement {
+    padding: 15px 80px;
+}
+
+.DropdownCont {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+
+.biographyRight {
+    margin-right: 30px;
+}
+
+@media all and (max-width: 1100px) {
+    .logTitle {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .biography {
+        flex-direction: column;
+    }
+    .biographyRight {
+        margin: 0px;
+    }
+    .biographyLeft {
+        padding-top: 18px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Host {
+        margin: 0px;
+    }
+    .logLocation {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .tag {
+        border-radius: 8px;
+        margin-top: 11px;
+    }
+    .Dropmedium {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .DropdownCont {
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+    .listeTags {
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .Logement {
+        padding: 35px 50px;
+    }
+}
+
+@media all and (max-width: 710px) {
+    .Logement {
+        padding: 35px 45px;
+    }    
+}
+
+@media all and (max-width: 650px) {
+    .logTitle {
+        font-size: 22px;
+    }   
+    .logLocation {
+        font-size: 15px;
+    }
+    .tag {
+        font-size: 12px;
+        padding: 5px 20px;
+        margin-right: 12px;
+        border-radius: 6px;
+    }
+    .Rating svg {
+        width: 25px;
+    }
+    .hostPicture {
+        width: 42px;
+        border-radius: 50%;
+        margin-left: 14px;
+    }
+    .hostName {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .Logement {
+        padding: 40px 30px;
+    }
+    .Dropmedium .DropTitle{
+        font-size: 15px;
+    }   
+    .Dropmedium .DropDescription{
+        font-size: 14px;
+    }
+    .Dropmedium svg {
+        width: 18px;
+    }  
+}
+
+@media all and (max-width: 500px) {
+    .Dropmedium .DropTitle{
+        font-size: 14px;
+    } 
+    .logTitle {
+        font-size: 18px;
+    }  
+    .logLocation {
+        font-size: 12px;
+    }
+    .tag {
+        font-size: 10px;
+        padding: 5px 20px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .hostPicture {
+        width: 36px;
+        margin-left: 10px;
+    }
+    .hostName {
+        font-size: 11px;
+    }
+    .Rating svg {
+        width: 20px;
+    }
+    .tag {
+        padding: 5px 15px;
+        margin-right: 8px;
+        border-radius: 4px;
+    }
+    .Dropmedium .DropTitle{
+        font-size: 12px;
+    }   
+    .Dropmedium .DropDescription{
+        font-size: 12px;
+    } 
+    .logTitle {
+        font-size: 17px;
+    }
+    .Dropmedium svg {
+        width: 16px;
+    }  
+}

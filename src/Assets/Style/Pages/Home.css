@@ -1,0 +1,186 @@
+@import url("../polices.css");
+
+.background {
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundImage {
+    width: -webkit-fill-available;
+    border-radius: 20px;
+    filter: brightness(0.7);
+}
+
+.backgroundText {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    font-family: Montserrat-Medium;
+}
+
+.LogementsListe {
+    background-color: #f7f7f7;
+    margin: 30px 80px;
+    padding: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.locationBackground {
+    display: flex;
+    width: calc(100%/3 - 36px);
+    align-items: center;
+    overflow: hidden;
+    margin: 18px;
+    position: relative;
+    border-radius: 8px;
+    min-height: 250px;
+} 
+
+.locationImage {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.locationImageDiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    box-shadow: inset 0px -120px 40px -40px #555555;
+}
+
+.locationTitre {
+    box-sizing: border-box;
+    padding: 0px 20px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: Montserrat-Medium;
+}
+
+@media all and (max-width: 1145px) {
+    .backgroundText {
+        font-size: 40px;
+        margin: 0;
+    }
+    .locationBackground {
+        width: calc(100%/2 - 36px);
+        height: 290px;
+        min-height: 0px;
+    }
+}
+
+@media all and (max-width: 1035px) {
+    .locationBackground {
+        height: 265px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .backgroundText {
+        font-size: 40px;
+        margin: 0;
+    }
+    .LogementsListe {
+        margin: 30px 40px;
+    }
+    .background {
+        padding: 30px 40px;
+    }
+    .locationBackground {
+        height: 250px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .backgroundText {
+        font-size: 30px;
+    }
+    .LogementsListe {
+        margin: 30px 30px;
+    }
+    .background {
+        padding: 30px 30px;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .backgroundText {
+        font-size: 22px;
+        padding: 20px;
+    }
+    .locationBackground {
+        width: calc(100% - 36px);
+        height: 320px;
+    }
+}
+
+@media all and (max-width: 560px) {
+    .locationBackground {
+        height: 280px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .locationBackground {
+        height: 275px;
+    }
+}
+
+@media all and (max-width: 470px) {
+    .locationBackground {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 30px;
+        height: 250px;
+    }
+    .LogementsListe {
+        background-color: white;
+        padding: 0px;
+    }
+    .backgroundImage {
+        border-radius: 10px;
+        width: auto;
+        height: 135px;
+    }
+    .background {
+        align-self: center;
+        width: calc(100% - 60px);
+        overflow: hidden;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 0px;
+        margin: 30px;
+        display: flex;
+        position: relative;
+    }
+    .Home {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .locationTitre {
+        font-size: 13px;
+    }
+    .LogementsListe {
+        margin: 30px 20px;
+    }
+    .background {
+        margin: 30px 20px;
+        width: calc(100% - 40px);
+    }
+    .locationBackground {
+        height: 225px;
+    }
+}

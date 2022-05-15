@@ -1,0 +1,112 @@
+.Gallery {
+    margin-bottom: 20px;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+}
+
+.ImageActive {
+    width: 100%;
+    object-fit: cover;
+    min-height: 100%;
+}
+
+.leftCross {
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+}
+
+.rightCross {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1250px) {
+    .leftCross {
+        width: 30px;
+    }
+    .rightCross {
+        width: 30px;
+    }
+    .Gallery {
+        height: 400px;
+    }
+}
+
+@media all and (max-width: 1050px) {
+    .leftCross {
+        width: 20px;
+    }
+    .rightCross {
+        width: 20px;
+    }
+    .Gallery {
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 875px) {
+    .Gallery {
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .Gallery {
+        height: 260px;
+        border-radius: 20px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .Gallery {
+        border-radius: 15px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .Gallery {
+        border-radius: 12px;
+    }
+    .rightCross {
+        width: 15px;
+        right: 20px;
+    }
+    .leftCross {
+        width: 15px;
+        left: 20px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .Gallery {
+        height: 250px;
+    }
+    .rightCross {
+        width: 14px;
+        right: 15px;
+    }
+    .leftCross {
+        width: 14px;
+        left: 15px;
+    }
+}
+
+@media all and (max-width: 365px) {
+    .Gallery {
+        height: 210px;
+    }
+    .rightCross {
+        width: 13px;
+        right: 11px;
+    }
+    .leftCross {
+        width: 13px;
+        left: 11px;
+    }
+}

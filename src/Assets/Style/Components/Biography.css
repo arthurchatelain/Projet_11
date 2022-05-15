@@ -1,0 +1,54 @@
+@import url("../polices.css");
+
+.biography {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listeTags {
+    display: flex;
+}
+
+.logTitle {
+    margin: 0;
+    color: #FF6060;
+    font-family: Montserrat-Light;
+    font-size: 36px;
+}
+
+.logLocation {
+    margin: 0;
+    color: #FF6060;
+    font-family: Montserrat-Light;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
+.Host {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hostName {
+    text-align: right;
+    width: min-content;
+    margin: 0;
+    color: #FF6060;
+    font-family: Montserrat-Medium;
+}
+
+.hostPicture {
+    width: 60px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.biographyLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: max-content;
+}

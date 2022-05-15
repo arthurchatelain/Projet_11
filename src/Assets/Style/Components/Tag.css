@@ -1,0 +1,12 @@
+@import url("../polices.css");
+
+.tag {
+    margin: 0;
+    font-family: Montserrat-Thin;
+    color: white;
+    font-size: 14px;
+    background-color: #FF6060;
+    padding: 6px 25px;
+    margin-right: 16px;
+    border-radius: 12px;
+}
